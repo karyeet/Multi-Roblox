@@ -1,5 +1,6 @@
 # Multi-Roblox
 Allows you to run multiple roblox instances, run before starting Roblox.
+This is a stupid safe alternative to the WRD version, which does essentially the same thing.
 
 To compile with VS 2019:
 1. Install Visual Studio 2019
