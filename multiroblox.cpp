@@ -1,14 +1,15 @@
 #include <Windows.h>
-#include <stdio.h>
-#include <conio.h>
+#include <iostream>
+
+using namespace std;
 
 int main()
 {
 	CreateMutex(NULL, TRUE, "ROBLOX_singletonMutex");
 
-	printf("You can now open multiple ROBLOX clients.\n");
-    printf("Closing this window will close all but one client.\n\n");
-	printf("Press any key to close.");
-	getch();
+	cout << "You can now open multiple ROBLOX clients." << endl;
+    	cout << "Closing this window will close all but one client." << endl << endl;
+	
+	system("pause");
 	return 0;
 }
