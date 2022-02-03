@@ -1,5 +1,6 @@
 #include <Windows.h>
 #include <cstdio>
+#include <conio.h>
 
 int main()
 {
@@ -8,6 +9,7 @@ int main()
 	printf("You can now open multiple ROBLOX clients.\n");
     	printf("Closing this window will close all but one client.\n\n");
 	
-	system("pause");
+	printf("Press any key to close.");
+	getch();
 	return 0;
 }
